@@ -69,7 +69,7 @@ deleted. Active mailboxes will have their messages fetched from the server.
 3. -cached: Returns all cached or inactive email addresses/mailboxes that have never been
 deleted. Cached email addresses will never have their messages be fetched by the server due
 to the high probability that such email addresses no longer exist. Consequently, any emails
-received once said email addresses are cached will not be accessible from ClTools.
+received once said email addresses are cached will not be accessible from CLTools.
 
 Cached email addresses are kept should the user need to refer back to a message that would
 otherwise be no longer retrievable. Active and cached email addresses or mailboxes can be
@@ -112,8 +112,8 @@ ls-messages command.
     clmail pull [MESSAGE-ID]
 pull will download all attachments within the specified message. Like cat, the full message id must be specified.
 This command should rarely be used since all attachments of messages are downloaded automatically. All
-attachments can be found at the source of this program in the Downloads folder. The Downloads directory
-is organized as follows:
+attachments can be found at the source directory of this program in the Downloads folder. The Downloads
+directory is organized as follows:
     
     Downloads/
         EmailID+EmailAddress/
