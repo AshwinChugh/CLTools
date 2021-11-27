@@ -1,3 +1,5 @@
-build
-dist
+build/
+dist/
 *.spec
+.DS_Store
+.idea/
